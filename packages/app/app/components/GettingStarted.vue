@@ -53,7 +53,9 @@
     </GettingStartedStep>
 
     <GettingStartedStep step="4">
-      <div>Promote pkg.khulnasoft.com by adding a badge to your repository README:</div>
+      <div>
+        Promote pkg.khulnasoft.com by adding a badge to your repository README:
+      </div>
 
       <div class="w-[550px]">
         <CodeSnippet
