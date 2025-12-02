@@ -43,7 +43,7 @@ beforeAll(async () => {
 
   // Launch worker in dev mode (ensure build output exists before this)
   worker = await unstable_dev(
-    `${import.meta.dirname}/dist/_worker.js/index.js`,
+    `${import.meta.dirname}/.output/server/index.mjs`,
     {
       config: `${import.meta.dirname}/wrangler.toml`,
     },
